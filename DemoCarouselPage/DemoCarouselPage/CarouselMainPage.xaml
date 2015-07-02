@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CarouselPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DemoCarouselPage.CarouselMainPage">
+	<ContentPage>
+        <StackLayout Orientation="Vertical"
+                     BackgroundColor="Blue">
+            <Label Text="Primeira Página" FontSize="15" TextColor="White" VerticalOptions="CenterAndExpand"
+                   XAlign="Center" />
+            <Label Text="Você pode realizar formulários/guias informando passo a passo utilizando a CarouselPage" 
+                   FontSize="13" TextColor= "White" XAlign ="Center" />
+            <Label Text="Página 1 de 3" VerticalOptions="EndAndExpand" FontSize="12" TextColor="White" XAlign="Center" />
+        </StackLayout>
+    </ContentPage>
+    <ContentPage>
+        <StackLayout Orientation="Vertical"
+                     BackgroundColor="Red">
+            <Label Text="Segunda Página" FontSize="15" TextColor="White" VerticalOptions="CenterAndExpand"
+                   XAlign="Center" />
+            <Label Text="Segundo passo do guia! Veja como é facil utilizar a CarouselPage" 
+                   FontSize="13" TextColor= "White" XAlign ="Center" />
+            <Label Text="Página 2 de 3" VerticalOptions="EndAndExpand" FontSize="12" TextColor="White" XAlign="Center" />
+        </StackLayout>
+    </ContentPage>
+    <ContentPage>
+        <StackLayout Orientation="Vertical"
+                     BackgroundColor="Black">
+            <Label Text="Terceira Página" FontSize="15" TextColor="White" VerticalOptions="CenterAndExpand"
+                   XAlign="Center" />
+            <Label Text="Fim do nosso guia/formulário" FontSize="13" TextColor= "White" XAlign ="Center" />
+            <Label Text="Página 3 de 3" VerticalOptions="EndAndExpand" FontSize="12" TextColor="White" XAlign="Center" />
+        </StackLayout>
+    </ContentPage>
+</CarouselPage>
